@@ -48,7 +48,7 @@ var AdWords = require('googleads-node-lib');
 var Service = new AdWords.ManagedCustomerService({
   ADWORDS_CLIENT_ID: 'your client id',
   ADWORDS_CLIENT_CUSTOMER_ID: 'your client customer id',
-  ADWORDS_DEVELOPER_TOKEN: 'your developer token'
+  ADWORDS_DEVELOPER_TOKEN: 'your developer token',
   ADWORDS_REFRESH_TOKEN: 'your refresh token',
   ADWORDS_SECRET: 'your secret',
   ADWORDS_USER_AGENT: 'your user agent',
